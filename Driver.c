@@ -59,7 +59,7 @@ Return Value:
     NTSTATUS status;
     WDF_OBJECT_ATTRIBUTES attributes;
 
-    DbgPrint("------------------------ 1 -------------------------\n");
+    DbgPrint("------------------------ %s -------------------------\n", __func__);
     DbgBreakPoint();
 
     //
